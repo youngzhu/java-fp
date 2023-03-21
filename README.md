@@ -12,4 +12,5 @@
   3. 类（包括抽象类）中方法的实现优先于接口中默认方法
      `turn()` 方法在 `Vehicle` `FastFly` `Sail` 中都有，但并没有冲突
   4. 如果多个默认方法的实现存在冲突，或者接口之间存在冲突的默认方法，实现类应该消除歧义
-     `cruise()` 方法在 `FastFly` `Sail` 中都有，冲突了，实现类 `SeaPlane` 必须消除歧义
+     `cruise()` 方法在接口 `FastFly` `Sail` 中都有，冲突了，实现类 `SeaPlane` 必须消除歧义
+- 方法链（Method Chaining） [MailerBuilder.java](src/main/java/com/youngzy/book/fpij/ch04/MailerBuilder.java)
