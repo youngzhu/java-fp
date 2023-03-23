@@ -20,4 +20,5 @@
 - Execute Around Method (EAM) pattern
   - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterEAM.java)
   - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch05/Locking.java)
+  - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch05/RodCutterTest.java)
 - 
