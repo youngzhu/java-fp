@@ -17,5 +17,7 @@
 
 ## Ch05 Working with Resources
 - Automatic Resource Management (ARM): [FileWriterARM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterARM.java)
-- Execute Around Method (EAM) pattern: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterEAM.java)
+- Execute Around Method (EAM) pattern
+  - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterEAM.java)
+  - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch05/Locking.java)
 - 
