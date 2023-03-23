@@ -21,4 +21,6 @@
   - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterEAM.java)
   - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch05/Locking.java)
   - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch05/RodCutterTest.java)
-- 
+
+## Ch06 Being Lazy
+- 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch06/HolderNaive.java)
