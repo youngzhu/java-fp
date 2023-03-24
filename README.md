@@ -27,3 +27,4 @@
 - 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch06/HolderNaive.java)
 - 延迟初始化（线程安全） [HolderThreadSafe.java](src/main/java/com/youngzy/book/fpij/ch06/HolderThreadSafe.java)
 - 延迟初始化（Lambda表达式） [Holder.java](src/main/java/com/youngzy/book/fpij/ch06/Holder.java)
+- Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch06/Evaluation.java)
