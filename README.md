@@ -29,3 +29,4 @@
 - 延迟初始化（Lambda表达式） [Holder.java](src/main/java/com/youngzy/book/fpij/ch06/Holder.java)
 - Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch06/Evaluation.java)
 - Stream 的延缓执行 [LazyStreams.java](src/main/java/com/youngzy/book/fpij/ch06/LazyStreams.java)
+- 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch06/Primes.java)
