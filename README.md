@@ -30,3 +30,6 @@
 - Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch06/Evaluation.java)
 - Stream 的延缓执行 [LazyStreams.java](src/main/java/com/youngzy/book/fpij/ch06/LazyStreams.java)
 - 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch06/Primes.java)
+
+## Ch07 Optimizing Recursions
+- TCO(tail-call optimization)
