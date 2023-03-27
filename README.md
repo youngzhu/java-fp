@@ -32,4 +32,19 @@
 - 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch06/Primes.java)
 
 ## Ch07 Optimizing Recursions
-- TCO(tail-call optimization)
+- TCO(tail-call optimization)，尾调用优化
+  - >在一个递归函数中，如果递归调用是函数的最后一步操作，那么这个递归调用被称为尾递归。尾调用优化的思想是将这种尾递归调用转换成一个跳转操作，从而避免创建新的栈帧。这样，程序在递归时就不会占用过多的内存，也不会因为栈溢出导致程序崩溃。
+  - 没太理解。这是ChatGPT给的一个例子
+    ```java
+      public static int factorial(int n) {
+        return factorialHelper(n, 1);
+      }
+
+      private static int factorialHelper(int n, int accumulator) {
+          if (n == 0) {
+              return accumulator;
+          } else {
+              return factorialHelper(n - 1, n * accumulator);
+          }
+      }
+    ```
