@@ -48,3 +48,5 @@
           }
       }
     ```
+
+## Ch08 Composing with Lambda Expressions
