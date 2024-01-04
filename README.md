@@ -1,4 +1,7 @@
-# Functional Programming in Java
+# Functional Programming in Java, 2nd Edition
+
+## Ch01 Hello, Lambda Expressions!
+
 
 ## Ch04 Designing with Lambda Expressions
 - 方法层面的 [AssetUtil2.java](src/main/java/com/youngzy/book/fpij/ch04/AssetUtil2.java)
