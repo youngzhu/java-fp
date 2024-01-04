@@ -19,7 +19,7 @@ public class Iteration {
         }
 
         System.out.println("--START: INTERNAL_FOR_EACH_OUTPUT");
-        friends.forEach(new Consumer<String>() {
+        friends.forEach(new Consumer<String>() { //Verbose, please don't do this
             @Override
             public void accept(String s) {
                 System.out.println(s);

@@ -30,6 +30,8 @@ public class PickDifferentNames {
         }
 
         {
+            // 缺点：将会为每个字母缓存一个由静态方法产生的Predicate<String>变量
+            // 应该尽量减少它的作用范围
             long countFriendsStartN = friends.stream()
                     .filter(checkStartWith("N"))
                     .count();

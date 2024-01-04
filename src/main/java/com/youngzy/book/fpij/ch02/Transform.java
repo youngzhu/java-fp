@@ -24,8 +24,11 @@ public class Transform {
         {
             final List<String> uppercaseNames = new ArrayList<>();
 
+            //BAD IDEA
+            // 修改了uppercaseNames列表，不利于并发
             friends.forEach(name -> uppercaseNames.add(name.toUpperCase()));
 
+            System.out.println(friends);
             System.out.println(uppercaseNames);
         }
 
