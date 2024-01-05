@@ -23,6 +23,6 @@ public record Person(
             new Person("Sara", "Lee",
                     List.of("slee@example.org", "lee@example.com")),
             new Person("Nancy", "Xie",
-                    List.of("nancy@example.com", "xie@example.com", "nx@example.com")),
+                    List.of("nancy@example.com", "xie@example.com", "nx@example.COM")),
             new Person("Jill", "Smith", List.of("jill@example.com")));
 }
