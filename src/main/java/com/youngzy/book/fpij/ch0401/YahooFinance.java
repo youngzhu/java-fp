@@ -1,11 +1,7 @@
-package com.youngzy.book.fpij.ch04;
+package com.youngzy.book.fpij.ch0401;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.math.BigDecimal;
-import java.net.URL;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author youngzy

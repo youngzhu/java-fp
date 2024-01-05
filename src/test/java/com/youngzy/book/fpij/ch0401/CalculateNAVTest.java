@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch04;
+package com.youngzy.book.fpij.ch0401;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
