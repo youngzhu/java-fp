@@ -7,6 +7,8 @@
 ## Ch03 Strings, Comparators, and Filters
 
 ## Ch04 Transforming Data
+map: one-to-one function
+flatMap (maps first and then flattens): ont-to-many function
 
 
 ## Ch04 Designing with Lambda Expressions
