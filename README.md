@@ -4,6 +4,8 @@
 
 ## Ch02 Using Collections
 
+## Ch03 Strings, Comparators, and Filters
+
 
 ## Ch04 Designing with Lambda Expressions
 - 方法层面的 [AssetUtil2.java](src/main/java/com/youngzy/book/fpij/ch04/AssetUtil2.java)
