@@ -13,7 +13,7 @@ public class WatchFileChange {
     public static void main(String[] args) throws Exception {
         new Thread(() -> watchFileChange()).start();
 
-        File file = new File("sample.log");
+        File file = new File("watch/sample.txt");
         file.createNewFile();
         Thread.sleep(5000);
         file.setLastModified(System.currentTimeMillis());
@@ -22,7 +22,7 @@ public class WatchFileChange {
     static void watchFileChange() {
         try {
 
-            Path path = Paths.get(".");
+            Path path = Paths.get("watch");
             WatchService watchService = path.getFileSystem().newWatchService();
 
             path.register(watchService, StandardWatchEventKinds.ENTRY_MODIFY);
