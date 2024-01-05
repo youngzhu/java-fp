@@ -22,32 +22,5 @@ public class People {
             GREG
     );
 
-    final static List<Person> ASCENDING_AGE = asList(
-            JOHN,
-            SARA,
-            JANE,
-            GREG
-    );
-
-    final static List<Person> DESCENDING_AGE = asList(
-            GREG,
-            SARA,
-            JANE,
-            JOHN
-    );
-
-    final static List<Person> ASCENDING_NAME = asList(
-            GREG,
-            JANE,
-            JOHN,
-            SARA
-    );
-
-    final static List<Person> ASCENDING_AGE_NAME = asList(
-            JOHN,
-            JANE,
-            SARA,
-            GREG
-    );
 
 }
