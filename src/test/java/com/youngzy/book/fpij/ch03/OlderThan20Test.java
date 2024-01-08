@@ -1,6 +1,7 @@
 package com.youngzy.book.fpij.ch03;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.*;
 import java.util.function.BinaryOperator;
@@ -8,7 +9,7 @@ import java.util.function.BinaryOperator;
 import static com.youngzy.book.fpij.ch03.OlderThan20.OLDER_THAN_20;
 import static com.youngzy.book.fpij.ch03.People.PEOPLE;
 import static java.util.stream.Collectors.*;
-import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class OlderThan20Test {
     @Test

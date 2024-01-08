@@ -36,10 +36,10 @@ public class FileWriterEAM {
     }
 
     public static void main(String[] args) throws IOException {
-        FileWriterEAM.use("eam.txt",
+        FileWriterEAM.use("output/eam.txt",
                 writer -> writer.writeStuff("sweet"));
 
-        FileWriterEAM.use("eam2.txt",
+        FileWriterEAM.use("output/eam2.txt",
                 writer -> {
                     writer.writeStuff("so");
                     writer.writeStuff(" sweet");

@@ -29,7 +29,9 @@ flatMap (maps first and then flattens): ont-to-many function
 ## Ch06 Working with Resources
 - Automatic Resource Management (ARM): [FileWriterARM.java](src/main/java/com/youngzy/book/fpij/ch06/FileWriterARM.java)
 - Execute Around Method (EAM) pattern
-  - > "Execute Around Method pattern" 是一种编程设计模式，也称为"环绕执行模式"，通常用于实现资源管理和异常处理等功能。在该模式中，一个方法会接收一个 lambda 函数作为参数，然后在这个 lambda 函数周围包装一些公共的代码逻辑，例如资源的获取和释放等操作，最后再执行 lambda 函数。这样可以确保公共逻辑在执行 lambda 函数前后得到正确地处理，同时使得代码更加简洁、易于理解和维护。
+  - > "Execute Around Method pattern" 是一种编程设计模式，也称为"环绕执行模式"，通常用于实现资源管理和异常处理等功能。
+    > 在该模式中，一个方法会接收一个 lambda 函数作为参数，然后在这个 lambda 函数周围包装一些公共的代码逻辑，
+    > 例如资源的获取和释放等操作，最后再执行 lambda 函数。这样可以确保公共逻辑在执行 lambda 函数前后得到正确地处理，同时使得代码更加简洁、易于理解和维护。
   - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch06/FileWriterEAM.java)
   - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch06/Locking.java)
   - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch06/RodCutterTest.java)

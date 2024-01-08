@@ -16,13 +16,13 @@ public class RodCutter {
     public void setPrices(List<Integer> prices) {
         // ...
         if (mustFail) {
-            throw new RodCutterException();
+            throw new RodCutterException("Invalid prices");
         }
     }
 
     public int maxProfit(int length) {
         if (length == 0)
-            throw new RodCutterException();
+            throw new RodCutterException("length should be greater than zero");
 
         return 0;
     }

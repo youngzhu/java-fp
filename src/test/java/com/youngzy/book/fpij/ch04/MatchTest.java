@@ -1,9 +1,9 @@
 package com.youngzy.book.fpij.ch04;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static com.youngzy.book.fpij.ch04.Person.SAMPLE_DATA;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MatchTest {
 

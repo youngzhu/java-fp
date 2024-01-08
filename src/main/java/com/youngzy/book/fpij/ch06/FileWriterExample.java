@@ -28,12 +28,19 @@ public class FileWriterExample {
     }
 
     public static void main(String[] args) throws IOException {
-        FileWriterExample fileWriterExample = new FileWriterExample("peekaboo.txt");
+        FileWriterExample fileWriterExample = new FileWriterExample("output/peekaboo.txt");
 
-        try {
-            fileWriterExample.writeStuff("peek-a-boo");
-        }finally {
-            // 必须显示调用，消息才会写入文件
+        // 空文件
+//        fileWriterExample.writeStuff("peek-a-boo");
+
+        // 有内容
+//        fileWriterExample.writeStuff("call close()");
+//        fileWriterExample.close();
+
+        // 保证一定会调 close()
+        try { //Rather verbose
+            fileWriterExample.writeStuff("ensure call close()");
+        } finally {
             fileWriterExample.close();
         }
 

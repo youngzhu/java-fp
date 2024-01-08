@@ -1,15 +1,13 @@
 package com.youngzy.book.fpij.ch06;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
-import static com.youngzy.book.fpij.ch06.TestHelper.assertThrows;
 
 /**
  * @author youngzy
@@ -23,7 +21,7 @@ public class RodCutterTest {
         return new RodCutter(false);
     }
 
-    @Before
+    @BeforeEach
     public void init() {
         rodCutter = createCutter();
         prices = Arrays.asList(1, 1, 2, 2, 3, 4, 5);
@@ -37,25 +35,28 @@ public class RodCutterTest {
             rodCutter.maxProfit(0);
             fail("Expected exception for zero length");
         } catch (RodCutterException e) {
-            assertTrue("expected", true);
+            assertTrue( true);
         }
     }
 
     // Using annotation
     // 简明扼要。
     // 但是，如果 setPrices 方法也抛出这个一样，这个测试也会通过
-    @Test(expected = RodCutterException.class)
-    public void terseExceptionTest() {
-        rodCutter.setPrices(prices);
-        rodCutter.maxProfit(0);
-    }
+//    @Test(expected = RodCutterException.class) // JUnit 4
+//    public void terseExceptionTest() {
+//        rodCutter.setPrices(prices);
+//        rodCutter.maxProfit(0);
+//    }
 
     // Using Lambda Expressions
     // 只有 maxProfit 方法抛出异常时，才能通过
     @Test
     public void conciseExceptionTest() {
         rodCutter.setPrices(prices);
-        assertThrows(RodCutterException.class,
-                () -> rodCutter.maxProfit(0));
+
+        Exception ex =
+                assertThrows(RodCutterException.class, () -> rodCutter.maxProfit(0));
+
+        assertEquals("length should be greater than zero", ex.getMessage());
     }
 }

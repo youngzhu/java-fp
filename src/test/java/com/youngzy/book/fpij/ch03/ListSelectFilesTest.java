@@ -1,6 +1,6 @@
 package com.youngzy.book.fpij.ch03;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;

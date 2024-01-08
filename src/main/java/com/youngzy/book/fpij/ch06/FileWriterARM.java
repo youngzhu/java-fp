@@ -24,7 +24,7 @@ public class FileWriterARM implements AutoCloseable {
     }
 
     public static void main(String[] args) throws IOException {
-        try(FileWriterARM fileWriterExample = new FileWriterARM("peekaboo.txt")){
+        try(FileWriterARM fileWriterExample = new FileWriterARM("output/peekaboo.txt")){
             fileWriterExample.writeStuff("peek-a-boo by FileWriterARM");
 
             System.out.println("done with the resource.");

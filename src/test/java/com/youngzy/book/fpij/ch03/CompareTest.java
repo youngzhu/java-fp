@@ -1,6 +1,7 @@
 package com.youngzy.book.fpij.ch03;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Comparator;
 import java.util.List;
@@ -10,7 +11,8 @@ import static com.youngzy.book.fpij.ch03.Compare.*;
 import static com.youngzy.book.fpij.ch03.People.*;
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CompareTest {
 
