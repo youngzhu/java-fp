@@ -1,9 +1,9 @@
-package com.youngzy.book.fpij.ch0501;
+package com.youngzy.book.fpij.ch06;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static com.youngzy.book.fpij.ch0501.Locker.runLocked;
+import static com.youngzy.book.fpij.ch06.Locker.runLocked;
 
 /**
  * @author youngzy

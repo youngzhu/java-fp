@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch06;
+package com.youngzy.book.fpij.ch0601;
 
 import java.util.function.Supplier;
 

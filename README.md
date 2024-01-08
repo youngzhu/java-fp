@@ -26,21 +26,21 @@ flatMap (maps first and then flattens): ont-to-many function
      `cruise()` 方法在接口 `FastFly` `Sail` 中都有，冲突了，实现类 `SeaPlane` 必须消除歧义
 - 方法链（Method Chaining） [MailerBuilder.java](src/main/java/com/youngzy/book/fpij/ch05/MailerBuilder.java)
 
-## Ch05 Working with Resources
-- Automatic Resource Management (ARM): [FileWriterARM.java](src/main/java/com/youngzy/book/fpij/ch0501/FileWriterARM.java)
+## Ch06 Working with Resources
+- Automatic Resource Management (ARM): [FileWriterARM.java](src/main/java/com/youngzy/book/fpij/ch06/FileWriterARM.java)
 - Execute Around Method (EAM) pattern
   - > "Execute Around Method pattern" 是一种编程设计模式，也称为"环绕执行模式"，通常用于实现资源管理和异常处理等功能。在该模式中，一个方法会接收一个 lambda 函数作为参数，然后在这个 lambda 函数周围包装一些公共的代码逻辑，例如资源的获取和释放等操作，最后再执行 lambda 函数。这样可以确保公共逻辑在执行 lambda 函数前后得到正确地处理，同时使得代码更加简洁、易于理解和维护。
-  - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch0501/FileWriterEAM.java)
-  - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch0501/Locking.java)
-  - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch0501/RodCutterTest.java)
+  - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch06/FileWriterEAM.java)
+  - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch06/Locking.java)
+  - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch06/RodCutterTest.java)
 
 ## Ch06 Being Lazy
-- 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch06/HolderNaive.java)
-- 延迟初始化（线程安全） [HolderThreadSafe.java](src/main/java/com/youngzy/book/fpij/ch06/HolderThreadSafe.java)
-- 延迟初始化（Lambda表达式） [Holder.java](src/main/java/com/youngzy/book/fpij/ch06/Holder.java)
-- Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch06/Evaluation.java)
-- Stream 的延缓执行 [LazyStreams.java](src/main/java/com/youngzy/book/fpij/ch06/LazyStreams.java)
-- 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch06/Primes.java)
+- 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch0601/HolderNaive.java)
+- 延迟初始化（线程安全） [HolderThreadSafe.java](src/main/java/com/youngzy/book/fpij/ch0601/HolderThreadSafe.java)
+- 延迟初始化（Lambda表达式） [Holder.java](src/main/java/com/youngzy/book/fpij/ch0601/Holder.java)
+- Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch0601/Evaluation.java)
+- Stream 的延缓执行 [LazyStreams.java](src/main/java/com/youngzy/book/fpij/ch0601/LazyStreams.java)
+- 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch0601/Primes.java)
 
 ## Ch07 Optimizing Recursions
 - TCO(tail-call optimization)，尾调用优化
