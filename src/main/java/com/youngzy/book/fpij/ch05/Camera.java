@@ -14,8 +14,10 @@ public class Camera {
 
     public void setFilters(Function<Color, Color>... filters) {
         filter = Stream.of(filters)
-                .reduce((filter, next) -> filter.compose(next))
-                .orElse(color -> color);
+                .reduce((filter, next) -> filter.andThen(next))
+                // 两种方式，一样的效果
+//                .orElse(color -> color);
+                .orElseGet(Function::identity);
     }
 
     public Camera() {

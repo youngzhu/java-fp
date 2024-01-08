@@ -20,10 +20,9 @@ public class CalculateNAV {
     }
 
     public static void main(String[] args) {
-        // 雅虎服务用不了
-        CalculateNAV calculateNAV = new CalculateNAV(YahooFinance::getPrice);
+        CalculateNAV calculateNAV = new CalculateNAV(FinanceData::getPrice);
 
-        System.out.println(String.format("100 shares of Google worth: $%.2f",
-                calculateNAV.computeStockWorth("GOOG", 100)));
+        System.out.println(String.format("100 shares of Apple worth: $%.2f",
+                calculateNAV.computeStockWorth("AAPL", 100)));
     }
 }

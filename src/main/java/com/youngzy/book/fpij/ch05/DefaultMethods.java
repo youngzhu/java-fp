@@ -57,9 +57,13 @@ public class DefaultMethods {
 
     void useClasses() {
         SeaPlane seaPlane = new SeaPlane();
+        // FastFly::takeOff
         seaPlane.takeOff();
+        // Vehicle::turn
         seaPlane.turn();
+        // SeaPlane::cruise currently cruise like: Sail::cruise
         seaPlane.cruise();
+        // Fly::land
         seaPlane.land();
     }
 

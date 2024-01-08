@@ -17,6 +17,6 @@ public class CalculateNAVTest {
         BigDecimal expected = new BigDecimal("6010.00");
         BigDecimal got = calculateNAV.computeStockWorth("GOOG", 1000);
 
-        assertEquals(0, got.compareTo(expected), 0.001);
+        assertEquals(expected.doubleValue(), got.doubleValue(), 0.001);
     }
 }

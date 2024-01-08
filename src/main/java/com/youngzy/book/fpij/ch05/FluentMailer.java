@@ -37,6 +37,6 @@ public class FluentMailer {
                 mailer.from("from@youngzy.com")
                         .to("to@youngzy.com")
                         .subject("Say hi")
-                        .body("Hello, "));
+                        .body("...much better..."));
     }
 }
