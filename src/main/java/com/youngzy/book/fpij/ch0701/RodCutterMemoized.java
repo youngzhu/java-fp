@@ -1,10 +1,10 @@
-package com.youngzy.book.fpij.ch07;
+package com.youngzy.book.fpij.ch0701;
 
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import static com.youngzy.book.fpij.ch07.Memoizer.callMemoized;
+import static com.youngzy.book.fpij.ch0701.Memoizer.callMemoized;
 
 /**
  * @author youngzy

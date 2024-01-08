@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch0601;
+package com.youngzy.book.fpij.ch07;
 
 import java.util.Arrays;
 import java.util.List;

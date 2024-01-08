@@ -36,13 +36,13 @@ flatMap (maps first and then flattens): ont-to-many function
   - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch06/Locking.java)
   - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch06/RodCutterTest.java)
 
-## Ch06 Being Lazy
-- 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch0601/HolderNaive.java)
-- 延迟初始化（线程安全） [HolderThreadSafe.java](src/main/java/com/youngzy/book/fpij/ch0601/HolderThreadSafe.java)
-- 延迟初始化（Lambda表达式） [Holder.java](src/main/java/com/youngzy/book/fpij/ch0601/Holder.java)
-- Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch0601/Evaluation.java)
-- Stream 的延缓执行 [LazyStreams.java](src/main/java/com/youngzy/book/fpij/ch0601/LazyStreams.java)
-- 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch0601/Primes.java)
+## Ch07 Being Lazy
+- 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch07/HolderNaive.java)
+- 延迟初始化（线程安全） [HolderThreadSafe.java](src/main/java/com/youngzy/book/fpij/ch07/HolderThreadSafe.java)
+- 延迟初始化（Lambda表达式） [Holder.java](src/main/java/com/youngzy/book/fpij/ch07/Holder.java)
+- Lazy Evaluation [Evaluation.java](src/main/java/com/youngzy/book/fpij/ch07/Evaluation.java)
+- Stream 的延缓执行 [LazyStreams.java](src/main/java/com/youngzy/book/fpij/ch07/LazyStreams.java)
+- 寻找素数 [Primes.java](src/main/java/com/youngzy/book/fpij/ch07/Primes.java)
 
 ## Ch07 Optimizing Recursions
 - TCO(tail-call optimization)，尾调用优化

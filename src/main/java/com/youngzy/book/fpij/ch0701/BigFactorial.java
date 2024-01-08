@@ -1,9 +1,9 @@
-package com.youngzy.book.fpij.ch07;
+package com.youngzy.book.fpij.ch0701;
 
 import java.math.BigInteger;
 
-import static com.youngzy.book.fpij.ch07.TailCalls.call;
-import static com.youngzy.book.fpij.ch07.TailCalls.done;
+import static com.youngzy.book.fpij.ch0701.TailCalls.call;
+import static com.youngzy.book.fpij.ch0701.TailCalls.done;
 
 /**
  * @author youngzy

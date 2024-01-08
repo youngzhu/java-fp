@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch07;
+package com.youngzy.book.fpij.ch0701;
 
 import java.util.stream.Stream;
 
