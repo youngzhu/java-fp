@@ -1,6 +1,6 @@
 package com.youngzy.book.fpij.ch08;
 
-import com.youngzy.book.fpij.ch0401.YahooFinance;
+import com.youngzy.book.fpij.ch05.YahooFinance;
 
 import java.math.BigDecimal;
 import java.util.function.Predicate;

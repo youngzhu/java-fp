@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch05;
+package com.youngzy.book.fpij.ch0501;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-import static com.youngzy.book.fpij.ch05.TestHelper.assertThrows;
+import static com.youngzy.book.fpij.ch0501.TestHelper.assertThrows;
 
 /**
  * @author youngzy

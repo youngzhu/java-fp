@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch0401;
+package com.youngzy.book.fpij.ch05;
 
 import java.util.function.Consumer;
 

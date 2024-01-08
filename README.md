@@ -11,11 +11,11 @@ map: one-to-one function
 flatMap (maps first and then flattens): ont-to-many function
 
 
-## Ch04 Designing with Lambda Expressions
-- 方法层面的 [AssetUtil2.java](src/main/java/com/youngzy/book/fpij/ch0401/AssetUtil2.java)
-- 类之间 [CalculateNAV.java](src/main/java/com/youngzy/book/fpij/ch0401/CalculateNAV.java)
-- 装饰者模式 [Camera.java](src/main/java/com/youngzy/book/fpij/ch0401/Camera.java)
-- 默认方法（default methods） [DefaultMethods.java](src/main/java/com/youngzy/book/fpij/ch0401/DefaultMethods.java)
+## Ch05 Designing with Lambda Expressions
+- 方法层面的 [AssetUtil2.java](src/main/java/com/youngzy/book/fpij/ch05/AssetUtil2.java)
+- 类之间 [CalculateNAV.java](src/main/java/com/youngzy/book/fpij/ch05/CalculateNAV.java)
+- 装饰者模式 [Camera.java](src/main/java/com/youngzy/book/fpij/ch05/Camera.java)
+- 默认方法（default methods） [DefaultMethods.java](src/main/java/com/youngzy/book/fpij/ch05/DefaultMethods.java)
   1. 子类型自动继承超类（包括类和接口）的默认方法
   `FastFly` 自动继承了 `Fly` 中的另外3个方法
   2. 对于提供了默认方法的接口，子类型中的实现优先于超类中的实现
@@ -24,15 +24,15 @@ flatMap (maps first and then flattens): ont-to-many function
      `turn()` 方法在 `Vehicle` `FastFly` `Sail` 中都有，但并没有冲突
   4. 如果多个默认方法的实现存在冲突，或者接口之间存在冲突的默认方法，实现类应该消除歧义
      `cruise()` 方法在接口 `FastFly` `Sail` 中都有，冲突了，实现类 `SeaPlane` 必须消除歧义
-- 方法链（Method Chaining） [MailerBuilder.java](src/main/java/com/youngzy/book/fpij/ch0401/MailerBuilder.java)
+- 方法链（Method Chaining） [MailerBuilder.java](src/main/java/com/youngzy/book/fpij/ch05/MailerBuilder.java)
 
 ## Ch05 Working with Resources
-- Automatic Resource Management (ARM): [FileWriterARM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterARM.java)
+- Automatic Resource Management (ARM): [FileWriterARM.java](src/main/java/com/youngzy/book/fpij/ch0501/FileWriterARM.java)
 - Execute Around Method (EAM) pattern
   - > "Execute Around Method pattern" 是一种编程设计模式，也称为"环绕执行模式"，通常用于实现资源管理和异常处理等功能。在该模式中，一个方法会接收一个 lambda 函数作为参数，然后在这个 lambda 函数周围包装一些公共的代码逻辑，例如资源的获取和释放等操作，最后再执行 lambda 函数。这样可以确保公共逻辑在执行 lambda 函数前后得到正确地处理，同时使得代码更加简洁、易于理解和维护。
-  - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch05/FileWriterEAM.java)
-  - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch05/Locking.java)
-  - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch05/RodCutterTest.java)
+  - Resource Cleanup: [FileWriterEAM.java](src/main/java/com/youngzy/book/fpij/ch0501/FileWriterEAM.java)
+  - Managing Locks: [Locking.java](src/main/java/com/youngzy/book/fpij/ch0501/Locking.java)
+  - Exception Tests: [RodCutterTest.java](src/test/java/com/youngzy/book/fpij/ch0501/RodCutterTest.java)
 
 ## Ch06 Being Lazy
 - 延迟初始化（原始版） [HolderNaive.java](src/main/java/com/youngzy/book/fpij/ch06/HolderNaive.java)
