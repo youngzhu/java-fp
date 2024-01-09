@@ -1,7 +1,7 @@
-package com.youngzy.book.fpij.ch0701;
+package com.youngzy.book.fpij.ch08;
 
-import static com.youngzy.book.fpij.ch0701.TailCalls.call;
-import static com.youngzy.book.fpij.ch0701.TailCalls.done;
+import static com.youngzy.book.fpij.ch08.TailCalls.call;
+import static com.youngzy.book.fpij.ch08.TailCalls.done;
 
 /**
  * @author youngzy

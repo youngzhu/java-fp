@@ -1,4 +1,4 @@
-package com.youngzy.book.fpij.ch08;
+package com.youngzy.book.fpij.ch0801;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
