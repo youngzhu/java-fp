@@ -37,6 +37,7 @@ public class BigFactorial {
 
     public static void main(String[] args) {
         System.out.println(factorial(FIVE));
-        System.out.println(factorial(TWENTYK));
+//        System.out.println(factorial(TWENTYK));
+        System.out.println(String.format("%.10s...", factorial(TWENTYK)));
     }
 }
