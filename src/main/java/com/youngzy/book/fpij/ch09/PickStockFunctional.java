@@ -20,6 +20,10 @@ public class PickStockFunctional {
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         findHighPriced(Tickers.symbols.stream());
-        System.out.printf("cost: %fs", (System.currentTimeMillis() - start)/1000.00);
+        System.out.printf("cost: %fs\n", (System.currentTimeMillis() - start)/1000.00);
+
+        start = System.currentTimeMillis();
+        findHighPriced(Tickers.symbols.parallelStream());
+        System.out.printf("parallelStream cost: %fs", (System.currentTimeMillis() - start)/1000.00);
     }
 }
