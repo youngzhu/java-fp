@@ -65,4 +65,4 @@ flatMap (maps first and then flattens): ont-to-many function
 
 ## Ch09 Composing Functions with Lambda Expressions
 
-## Ch09 Bringing It All Together
+## Ch10 Error Handling
