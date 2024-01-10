@@ -66,3 +66,4 @@ flatMap (maps first and then flattens): ont-to-many function
 ## Ch09 Composing Functions with Lambda Expressions
 
 ## Ch10 Error Handling
+将异常封装成“数据”，继续传递下去，以便链式函数能执行完成。在最后的结果集中处理数据和异常。
