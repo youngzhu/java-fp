@@ -69,3 +69,9 @@ flatMap (maps first and then flattens): ont-to-many function
 将异常封装成“数据”，继续传递下去，以便链式函数能执行完成。在最后的结果集中处理数据和异常。
 
 ## Ch11 Refactoring to Functional Style
+
+
+## 心得/总结
+- 函数式编程的优点：简明、高效
+- 缺点：对于异常处理不够友好
+- 函数式编程=声明式思维+高阶函数
