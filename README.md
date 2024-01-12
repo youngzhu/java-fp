@@ -83,8 +83,22 @@ flatMap (maps first and then flattens): ont-to-many function
 - 一个条件，一个filter
 - 函数表达式中不要有共享（可变的）变量。变量可用 `final` 修饰
 
-## Ch13 
+## Ch13 Bringing It All Together
+- 改变思维习惯，从之前的“命令式”改为“声明式”。Tell, Don't ask.
+- 多使用不可变变量 `final`
 
+## 主要的几个接口
+### Consumer\<T>
+消费者。有入参，没有出参。可用于 `forEach()` 等函数
+
+### Supplier\<T>
+生产者/工厂。返回类型T的实例
+
+### Predicate\<T>
+真假判断。返回true/false 。常用于 `filter()` `anyMatch()` 等函数
+
+### Function\<T, R>
+对象转换。有入参T，有出参R。T、R可能是同一个类型。常用于 `map()` 函数
 
 ## 心得/总结
 - 函数式编程的优点：简明、高效
