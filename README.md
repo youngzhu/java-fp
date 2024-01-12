@@ -70,6 +70,21 @@ flatMap (maps first and then flattens): ont-to-many function
 
 ## Ch11 Refactoring to Functional Style
 
+## Ch12 Functional Programming Idioms
+- 表达式尽量写一行，最多两行。多了则用函数代替
+- 优选方法引用
+  - 不需要传参时，可以用“方法引用”替换
+  - 要传参，又简单的，就不要替换了
+  - ```java
+      .filter(driver -> driver.getAge() > 21) // 保持原样
+      .filter(Driver::isDriversLicenseValid) // 使用“方法引用”
+    ```
+- 注意格式，一行一个方法，如 `filter` `map` 等
+- 一个条件，一个filter
+- 函数表达式中不要有共享（可变的）变量。变量可用 `final` 修饰
+
+## Ch13 
+
 
 ## 心得/总结
 - 函数式编程的优点：简明、高效
