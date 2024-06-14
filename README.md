@@ -8,7 +8,7 @@
 
 ## Ch04 Transforming Data
 map: one-to-one function
-flatMap (maps first and then flattens): ont-to-many function
+flatMap (maps first and then flattens): one-to-many function
 
 
 ## Ch05 Designing with Lambda Expressions
